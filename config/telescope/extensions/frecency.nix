@@ -1,5 +1,5 @@
 {
-  plugins.telescope.extencions.frencency = {
+  plugins.telescope.extensions.frecency = {
     enable = true;
   };
 

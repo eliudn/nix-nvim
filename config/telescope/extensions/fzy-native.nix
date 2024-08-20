@@ -1,5 +1,5 @@
 {
-  plugins.telescope.extencions.fzy-native = {
+  plugins.telescope.extensions.fzy-native = {
     enable = true;
   };
 }

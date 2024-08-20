@@ -1,6 +1,6 @@
 {
   
-  plugins.telescope.extencions.fzf-native = {
+  plugins.telescope.extensions.fzf-native = {
     enable = true;
   };
 

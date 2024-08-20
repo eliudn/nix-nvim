@@ -1,5 +1,5 @@
 {
-  plugins.telescope.extencions.file-browser = {
+  plugins.telescope.extensions.file-browser = {
     enable = true;
 
     
