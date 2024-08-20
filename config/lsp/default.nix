@@ -1,4 +1,6 @@
 {
 plugins.lsp = {
-  enable = true
+  enable = true;
+  servers.nixd.enable = true;
+  };
 }
