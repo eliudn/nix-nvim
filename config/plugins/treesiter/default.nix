@@ -3,8 +3,8 @@
     treesitter = {
       enable = true;
 
-      settings {
-        ensure_installed = [];
+      settings = {
+        ensure_installed = "all";
       };
     };
   };
