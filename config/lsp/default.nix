@@ -1,0 +1,4 @@
+{
+plugins.lsp = {
+  enable = true
+}
