@@ -1,6 +1,6 @@
 {
   imports = [
-  ./treeseter
+  ./treesiter
   ./cmp
   ];
 }

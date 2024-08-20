@@ -1,11 +1,11 @@
 {
   plugins ={
-    treestter = {
+    treesitter = {
       enable = true;
 
       settings {
-        ensure_installed = "all";
-      }
+        ensure_installed = [];
+      };
     };
   };
 }
