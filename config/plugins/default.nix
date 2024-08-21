@@ -1,6 +1,8 @@
 {
   imports = [
-  ./treesiter
-  ./cmp
+    ./treesiter
+    ./lsp
+    ./cmp
+    ./telescope
   ];
 }

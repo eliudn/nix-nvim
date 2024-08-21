@@ -5,8 +5,6 @@ extraPackages = [pkgs.fd];
 globals.mapleader = " ";
 imports =  [
   ./plugins
-  ./lsp
-  ./telescope
   ];
 
 }
