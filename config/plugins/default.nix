@@ -5,5 +5,7 @@
     ./cmp
     ./telescope
     ./oil
+    ./git
+    ./toggleterm
   ];
 }
