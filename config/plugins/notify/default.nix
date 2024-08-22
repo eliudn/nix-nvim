@@ -1,5 +1,5 @@
 {
-  plugins.barbecue = {
+  plugins.notify = {
     enable = true;
   };
 }

@@ -9,5 +9,6 @@
     ./toggleterm
     ./navic
     ./neorg
+    ./notify
   ];
 }

@@ -1,28 +1,29 @@
 {
   plugins.neorg = {
-    enable = true;
+    enable = false;
+  };
+  
+  
+}
+/**
     modules = {
       "core.defaults" = {};
       "core.ui" = {};
       "core.concealer" = {};
+      "core.pivot" = {};
       "core.dirman" = {
         config = {
           workspaces = {
             notes = "~/notes";
           };
-          defaults_workspace = "notes";
+          default_workspace = "notes";
         };
       };
     };
-  };
+
+
 
   keymaps = [
-    {
-      mode = "n";
-      key = "<leader>nn";
-      action ="<Plug>(neorg.dirman.new-note)";
-      options = { silent = true;};
-    }
     {
       mode = "n";
       key = "<leader>ne";
@@ -31,16 +32,22 @@
     }
     {
       mode = "n";
-      key = "<leader>nt";
-      action ="<Plug>(neorg.pivot.list.toggle)";
-      options = { silent = true;};
-    }
-    {
-      mode = "n";
       key = "<localleader>fn";
       action ="<cmd>Telescope find_files cwd=~/notes/<CR>";
       options = { silent = true;};
     }
-  ];
-  
-}
+    {
+      mode = "n";
+      key = "<leader>nn";
+      action ="<Plug>(neorg.dirman.new-note)";
+      options = { silent = true;};
+    }
+
+    {
+      mode = "n";
+      key = "<leader>nt";
+      action ="<Plug>(neorg.pivot.list.toggle)";
+      options = { silent = true;};
+      }
+    ];
+      */
