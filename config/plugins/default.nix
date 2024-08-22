@@ -4,5 +4,6 @@
     ./lsp
     ./cmp
     ./telescope
+    ./oil
   ];
 }

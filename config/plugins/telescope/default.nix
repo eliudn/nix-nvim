@@ -26,6 +26,12 @@
         };
       };
 
+      "<leader>tb" = {
+        action = "buffers";
+        options = {
+          desc = " Telescope frecency ";
+        };
+      };
       "<leader>Tf" = {
         action = "frecency";
         options = {
