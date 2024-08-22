@@ -13,7 +13,7 @@
       fzf-native.enable = true;
     };
     keymaps = {
-      "C-p" = {
+      "<C-p>" = {
         action = "git_files";
         options = {
           desc = "Telescope get files";

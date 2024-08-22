@@ -35,5 +35,5 @@
     scrolloff = 5;
   };
   globals.mapleader = " ";
-  globals.maplocallerder = "+";
+  globals.maplocalleader = "+";
 }
