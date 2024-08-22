@@ -1,5 +1,5 @@
 {
-  plugins.gitsigns = {
+  plugins.navic = {
     enable = true;
   };
 }

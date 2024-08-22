@@ -1,10 +1,11 @@
-{self, ...}:
+{ self, ... }:
 {
   opts = {
     number = true;
     relativenumber = true;
     # Always show the signcolumn, otherwise text would be shifted when displaying error icons
     signcolumn = "yes";
+    numberwidth = 2;
 
     # Search
     ignorecase = true;
@@ -25,12 +26,14 @@
 
     # Show line and column when searching
     ruler = true;
-
+    splitbelow = true;
+    splitright = true;
     # Global substitution by default
     gdefault = true;
 
     # Start scrolling when the cursor is X lines away from the top/bottom
     scrolloff = 5;
   };
-   globals.mapleader = " ";
+  globals.mapleader = " ";
+  globals.maplocallerder = "+";
 }

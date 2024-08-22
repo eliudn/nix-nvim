@@ -7,5 +7,7 @@
     ./oil
     ./git
     ./toggleterm
+    ./navic
+    ./neorg
   ];
 }
