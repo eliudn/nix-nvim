@@ -52,7 +52,7 @@
         { name = 'snippy' },
       }, {
         { name = 'buffer' },
-        { name = 'path'},
+        { name = 'fuzzy_path'},
       })
     '';
   };
@@ -83,6 +83,7 @@
     cmp-vsnip.enable = true;
     cmp_luasnip.enable = true;
     cmp_yanky.enable = true;
+    cmp-path.enable = true;
   };
 
   extraConfigLua = ''
@@ -107,7 +108,7 @@
   cmp.setup.cmdline(':', {
     mapping = cmp.mapping.preset.cmdline(),
     sources = cmp.config.sources({
-      { name = 'path' }
+      { name = 'fuzzy_path' }
     }, {
       { name = 'cmdline' }
     })

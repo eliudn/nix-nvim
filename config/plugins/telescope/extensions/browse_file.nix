@@ -1,8 +1,6 @@
 {
   plugins.telescope.extensions.file-browser = {
     enable = true;
-
-    
   };
 }
 /* modo i

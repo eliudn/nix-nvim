@@ -31,5 +31,6 @@
 
     # Start scrolling when the cursor is X lines away from the top/bottom
     scrolloff = 5;
-  }
+  };
+   globals.mapleader = " ";
 }
