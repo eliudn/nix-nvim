@@ -7,7 +7,7 @@
     ./oil
     ./git
     ./toggleterm
-    ./navic
+    ./barbecue
     ./neorg
     ./notify
   ];
