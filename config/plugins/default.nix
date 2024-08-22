@@ -10,6 +10,7 @@
     ./barbecue
     ./neorg
     ./notify
-    ./bdf
+    ./bqf
+    ./lualine
   ];
 }
