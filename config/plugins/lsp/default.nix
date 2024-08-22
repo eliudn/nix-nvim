@@ -1,6 +1,8 @@
 {
   plugins.fidget.enable = true;
-  plugins.lsp = {
+  plugins =
+  {
+      lsp = {
     enable = true;
     keymaps.lspBuf = {
       K = "hover";
@@ -23,8 +25,9 @@
 
       vim.keymap.set({'v','n'}, '<leader>ca', vim.lsp.buf.code_action)
     '';
-    servers.nixd.enable = true;
   };
+      none-ls.enable = true;
+    };
   extraConfigLua = ''
      vim.lsp.inlay_hint.enable()
 
