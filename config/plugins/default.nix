@@ -10,5 +10,6 @@
     ./barbecue
     ./neorg
     ./notify
+    ./bdf
   ];
 }
