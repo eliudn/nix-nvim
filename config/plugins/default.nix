@@ -13,5 +13,8 @@
     ./bqf
     ./lualine
     ./ult_autoparins
+    ./comment
+    ./derssing
+    ./colorizer
   ];
 }

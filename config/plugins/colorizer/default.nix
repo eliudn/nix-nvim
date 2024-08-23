@@ -1,0 +1,5 @@
+{
+  pligins.colorizer = {
+    enable = true;
+  };
+}
