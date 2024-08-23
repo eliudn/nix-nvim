@@ -42,20 +42,16 @@
             "menu"
           ];
         };
-        sources = {
-          __raw = ''
-            cmp.config.sources({
-              { name = 'nvim_lsp' },
-              { name = 'vsnip' },
-              { name = 'luasnip' },
-              { name = 'ultisnips' },
-              { name = 'snippy' },
-            }, {
-              { name = 'buffer' },
-              { name = 'path'},
-            })
-          '';
-        };
+        sources = [
+              { name = "nvim_lsp" ;}
+              { name = "vsnip" ;}
+              { name = "luasnip" ;}
+              { name = "ultisnips" ;}
+              { name = "snippy" ;}
+              { name = "buffer" ;}
+              { name = "path";}
+            ];
+        
       };
     };
 
