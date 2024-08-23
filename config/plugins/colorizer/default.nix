@@ -1,5 +1,5 @@
 {
-  pligins.colorizer = {
+  plugins.colorizer = {
     enable = true;
   };
 }
