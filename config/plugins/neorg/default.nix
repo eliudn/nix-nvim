@@ -6,8 +6,11 @@
     (pkgs.vimUtils.buildVimPlugin { inherit (pkgs.luaPackages.nvim-nio) pname version src; })
   ];
 
-  plugins.neorg = {
-    enable = true;
+  plugins = {
+    neorg = {
+      enable = true;
+      lazyLoading = true;
+    };
   };
 
   keymaps = [
