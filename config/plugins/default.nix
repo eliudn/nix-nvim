@@ -12,5 +12,6 @@
     ./notify
     ./bqf
     ./lualine
+    ./ult_autoparins
   ];
 }

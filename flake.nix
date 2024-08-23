@@ -5,6 +5,10 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixvim.url = "github:nix-community/nixvim";
     flake-parts.url = "github:hercules-ci/flake-parts";
+    plugin-ultimate-autopairs = {
+      url = "github:altermo/ultimate-autopair.nvim";
+      flake = false;
+    };
   };
 
   outputs =
@@ -27,7 +31,7 @@
             module = import ./config; # import the module directly
             # You can use `extraSpecialArgs` to pass additional arguments to your module files
             extraSpecialArgs = {
-              # inherit (inputs) foo;
+              inherit (inputs) foo;
             };
           };
           nvim = nixvim'.makeNixvimWithModule nixvimModule;
