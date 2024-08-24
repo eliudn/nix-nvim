@@ -16,6 +16,7 @@ imports =  [
 
     ./frameworks/vue.nix
     ./frameworks/tailwindcss.nix
+    ./frameworks/laravel
   ];
 
 }

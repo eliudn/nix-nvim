@@ -9,6 +9,14 @@
       url = "github:altermo/ultimate-autopair.nvim";
       flake = false;
     };
+    blade-treesitter = {
+      url = "github:EmranMR/tree-sitter-blade";
+      flake = false;
+    };
+    plugin-laravel = {
+      url = "github:adalessa/laravel.nvim/feature/container";
+      flake = false;
+    };
   };
 
   outputs =
