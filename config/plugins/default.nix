@@ -1,6 +1,7 @@
 {
   imports = [
     ./treesiter
+    ./snipperts.nix
     ./lsp
     ./cmp
     ./telescope

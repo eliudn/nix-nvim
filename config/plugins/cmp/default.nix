@@ -55,11 +55,6 @@
       };
     };
 
-    luasnip = {
-      enable = true;
-
-    };
-
     cmp-async-path.enable = true;
     cmp-buffer.enable = true;
     cmp-calc.enable = true;

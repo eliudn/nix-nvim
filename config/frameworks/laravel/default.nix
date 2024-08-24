@@ -7,7 +7,7 @@
 let
   laravelPlugin = pkgs.vimUtils.buildVimPlugin {
     name = "laravel";
-    src = inputs.plungin-laravel;
+    src = inputs.plugin-laravel;
   };
 in
 {
