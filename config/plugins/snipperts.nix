@@ -18,7 +18,7 @@
         "i"
         "s"
       ];
-      key = "<c-k>";
+      key = "<A-k>";
       action = helpers.mkRaw ''
         function()
           local ls = require('luasnip')
@@ -34,7 +34,7 @@
         "i"
         "s"
       ];
-      key = "<c-j>";
+      key = "<A-j>";
       action = helpers.mkRaw ''
         function()
           local ls = require('luasnip')
@@ -50,7 +50,7 @@
         "i"
         "s"
       ];
-      key = "<c-l>";
+      key = "<A-l>";
       action = helpers.mkRaw ''
         function()
           local ls = require('luasnip')

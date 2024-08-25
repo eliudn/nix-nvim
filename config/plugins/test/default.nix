@@ -8,33 +8,39 @@
 
   keymaps = [
     {
-      actions = "<cmd>lua require('neotest').run.run()<CR>";
+      mode = "n";
+      action = ":lua require('neotest').run.run()<CR>";
       key = "<Leader>mr";
       options.silent = true;
     }
     {
-      actions = "<cmd>lua require('neotest').run.stop()<CR>";
+      mode = "n";
+      action = ":lua require('neotest').run.stop()<CR>";
       key = "<Leader>ms";
       options.silent = true;
     }
     {
-      actions = "<cmd>lua require('neotest').output.open()<CR>";
+      mode = "n";
+      action = ":lua require('neotest').output.open()<CR>";
       key = "<Leader>mo";
       options.silent = true;
     }
     {
-      actions = "<cmd>lua require('neotest').output.open({ entre = true })<CR>";
+      mode = "n";
+      action = ":lua require('neotest').output.open({ entre = true })<CR>";
       key = "<Leader>mO";
       options.silent = true;
     }
     {
-      actions = "<cmd>lua require('neotest').summary.toggle()<CR>";
+      mode = "n";
+      action = ":lua require('neotest').summary.toggle()<CR>";
       key = "<Leader>mi";
       options.silent = true;
     }
 
     {
-      actions = "<cmd>lua require('neotest').run.run(vim.fn.expand('%'))<CR>";
+      mode = "n";
+      action = ":lua require('neotest').run.run(vim.fn.expand('%'))<CR>";
       key = "<Leader>mf";
       options.silent = true;
     }
