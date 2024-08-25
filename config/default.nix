@@ -14,7 +14,7 @@ imports =  [
     ./lsp_server/javascript
     ./lsp_server/python
 
-    ./frameworks/vue.nix
+    # ./frameworks/vue.nix
     ./frameworks/tailwindcss.nix
     ./frameworks/laravel
   ];

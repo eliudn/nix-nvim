@@ -1,5 +1,25 @@
 {
   plugins = {
+    cmp-async-path.enable = true;
+    cmp-buffer.enable = true;
+    cmp-calc.enable = true;
+    cmp-cmdline.enable = true;
+    cmp-cmdline-history.enable = true;
+    cmp-dap.enable = true;
+    cmp-fuzzy-buffer.enable = true;
+    cmp-fuzzy-path.enable = true;
+    cmp-git.enable = true;
+    cmp-latex-symbols.enable = false;
+    cmp-npm.enable = true;
+    cmp-nvim-lsp.enable = true;
+    cmp-nvim-lsp-document-symbol.enable = true;
+    cmp-nvim-lua.enable = true;
+    # cmp-nvim-ultisnips.enable = true;
+    cmp-rg.enable = true;
+    cmp-vsnip.enable = true;
+    cmp_luasnip.enable = true;
+    cmp_yanky.enable = true;
+    cmp-path.enable = true;
     cmp = {
       enable = true;
       autoEnableSources = false;
@@ -43,38 +63,18 @@
           ];
         };
         sources = [
-              { name = "nvim_lsp" ;}
-              { name = "vsnip" ;}
-              { name = "luasnip" ;}
-              { name = "ultisnips" ;}
-              { name = "snippy" ;}
-              { name = "buffer" ;}
-              { name = "path";}
-            ];
-        
+          { name = "nvim_lsp"; }
+          { name = "vsnip"; }
+          { name = "luasnip"; }
+          # { name = "ultisnips"; }
+          { name = "snippy"; }
+          { name = "buffer"; }
+          { name = "path"; }
+        ];
+
       };
     };
 
-    cmp-async-path.enable = true;
-    cmp-buffer.enable = true;
-    cmp-calc.enable = true;
-    cmp-cmdline.enable = true;
-    cmp-cmdline-history.enable = true;
-    cmp-dap.enable = true;
-    cmp-fuzzy-buffer.enable = true;
-    cmp-fuzzy-path.enable = true;
-    cmp-git.enable = true;
-    cmp-latex-symbols.enable = false;
-    cmp-npm.enable = true;
-    cmp-nvim-lsp.enable = true;
-    cmp-nvim-lsp-document-symbol.enable = true;
-    cmp-nvim-lua.enable = true;
-    cmp-nvim-ultisnips.enable = true;
-    cmp-rg.enable = true;
-    cmp-vsnip.enable = true;
-    cmp_luasnip.enable = true;
-    cmp_yanky.enable = true;
-    cmp-path.enable = true;
   };
 
   extraConfigLua = ''

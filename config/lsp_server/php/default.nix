@@ -13,8 +13,8 @@
     "ftplugin/php.lua" = {
       opts = {
         tabstop = 4;
-        softtabtop = 4;
-        expantab = true;
+        softtabstop = 4;
+        expandtab = true;
         shiftwidth = 4;
       };
     };

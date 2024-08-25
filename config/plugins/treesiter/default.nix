@@ -8,7 +8,7 @@
         indent.enable = true;
         highlight.enable = true;
 
-        #ensure_installed = "all";
+         ensure_installed = "all";
       };
       grammarPackages = pkgs.vimPlugins.nvim-treesitter.passthru.allGrammars;
     };

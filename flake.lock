@@ -294,6 +294,22 @@
         "type": "github"
       }
     },
+    "plugin-kulala": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1724357567,
+        "narHash": "sha256-lsct1/VGj0rtX3xzoSKQD7Rji7zsNrWSsHyZr1fdU44=",
+        "owner": "mistweaverco",
+        "repo": "kulala.nvim",
+        "rev": "7649576ca459146658b4c415d1a320bbedc3f564",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mistweaverco",
+        "repo": "kulala.nvim",
+        "type": "github"
+      }
+    },
     "plugin-laravel": {
       "flake": false,
       "locked": {
@@ -333,6 +349,7 @@
         "flake-parts": "flake-parts",
         "nixpkgs": "nixpkgs",
         "nixvim": "nixvim",
+        "plugin-kulala": "plugin-kulala",
         "plugin-laravel": "plugin-laravel",
         "plugin-ultimate-autopairs": "plugin-ultimate-autopairs"
       }

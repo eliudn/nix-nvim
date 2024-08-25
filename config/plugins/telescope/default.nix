@@ -19,6 +19,12 @@
           desc = "Telescope get files";
         };
       };
+      "<leader>lg" = {
+        action = "live_grep";
+        options = {
+          desc = "Telescope live grep";
+        };
+      };
       "<leader>tf" = {
         action = "frecency workspace=CWD";
         options = {

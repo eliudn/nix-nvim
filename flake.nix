@@ -17,6 +17,10 @@
       url = "github:adalessa/laravel.nvim/feature/container";
       flake = false;
     };
+    plugin-kulala = {
+      url = "github:mistweaverco/kulala.nvim";
+      flake = false;
+    };
   };
 
   outputs =

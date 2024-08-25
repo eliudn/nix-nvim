@@ -17,5 +17,7 @@
     ./comment
     ./derssing
     ./colorizer
+    ./test
+    ./kulala
   ];
 }
