@@ -9,8 +9,24 @@
   plugins = {
     neorg = {
       enable = true;
-      lazyLoading = true;
+      # lazyLoading = true;
+      modules = {
+        "core.defaults" = { };
+        "core.dirman" = {
+          config = {
+            workspaces = {};
+          };
+        };
+
+      };
     };
+    treesitter = {
+      grammarPackages = with pkgs.tree-sitter-grammars; [
+        tree-sitter-norg
+        tree-sitter-norg-meta
+      ];
+    };
+
   };
 
   keymaps = [
@@ -50,19 +66,3 @@
   ];
 
 }
-/*
-    modules = {
-      "core.defaults" = { };
-      "core.ui" = { };
-      "core.concealer" = { };
-      "core.pivot" = { };
-      "core.dirman" = {
-        config = {
-          workspaces = {
-            notes = "~/notes";
-          };
-          default_workspace = "notes";
-        };
-      };
-    };
-*/
