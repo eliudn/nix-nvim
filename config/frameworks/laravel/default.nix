@@ -11,7 +11,10 @@ let
   };
 in
 {
-  imports = [ ./blade ];
+  imports = [ 
+    ./blade
+    ./lineStatus.nix
+  ];
 
   extraPlugins = [
     laravelPlugin
