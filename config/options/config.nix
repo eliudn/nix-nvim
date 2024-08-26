@@ -33,6 +33,9 @@
 
     # Start scrolling when the cursor is X lines away from the top/bottom
     scrolloff = 5;
+
+    undofile = true;
+    undolevel = 1000;
   };
   globals.mapleader = " ";
   globals.maplocalleader = "+";
