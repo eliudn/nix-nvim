@@ -35,7 +35,7 @@
     scrolloff = 5;
 
     undofile = true;
-    undolevel = 1000;
+    undolevels = 1000;
   };
   globals.mapleader = " ";
   globals.maplocalleader = "+";
