@@ -52,8 +52,8 @@
    }
     {
       mode = "t";
-      action = "<cmd> <esc> <CR>";
-      key = "<c-\\><c-n>";
+      action = "<c-\\><c-n>";
+      key = "<esc>";
       options = {
         silent = true;
       };

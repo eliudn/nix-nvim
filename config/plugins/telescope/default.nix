@@ -1,8 +1,6 @@
-{pkgs, ...}:
+{ pkgs, ... }:
 {
-      imports = [
-        ./extensions
-      ];
+  imports = [ ./extensions ];
   extraPackages = [
     pkgs.fd
     pkgs.ripgrep
@@ -59,7 +57,6 @@
         };
       };
 
-
       "<leader>fh" = {
         action = "help_tags";
         options = {
@@ -70,10 +67,19 @@
       "<leader>fk" = {
         action = "keymaps";
         options = {
-        desc = "Telescope keymaps";
-      };
+          desc = "Telescope keymaps";
+        };
       };
     };
   };
+  keymaps = [
+    {
+      action = ":lua require('telescope.builtin').find_files({ cwd = vim.fn.expand('%:p:h') })<CR>";
+      key = "<Leader>fa";
+      options = {
+        desc = "Telescope abrir es la ubicacion del archivo";
+      };
+    }
+  ];
 
 }
