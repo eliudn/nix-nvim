@@ -28,15 +28,5 @@
         package = pkgs.vue-language-server;
       };
     };
-    # cmp.settings = {
-    #   formatting.format = ''
-    #     function(entry, vim_item)
-    #         if vim_item.abbr:match('^@/') then
-    #           vim_item.menu = '[Path]'
-    #         end
-    #         return vim_item
-    #     end
-    #   '';
-    # };
   };
 }
