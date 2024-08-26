@@ -34,8 +34,8 @@
             ["<C-n>"] = cmp.mapping(function(fallback)
               if cmp.visible() then
                 cmp.select_next_item()
-              elseif luasnip.choice_active() then
-                luasnip.change_choice(1)
+              elseif require('luasnip').choice_active() then
+               require('luasnip').change_choice(1)
               else
                 fallback()
               end

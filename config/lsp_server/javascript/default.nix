@@ -27,6 +27,7 @@
         enable = true;
         package = pkgs.vue-language-server;
       };
+      emmet-ls.filetypes = ["vue"];
     };
   };
 }
