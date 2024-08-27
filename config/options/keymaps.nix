@@ -1,5 +1,5 @@
 {
-   keymaps = [
+  keymaps = [
     {
       mode = "i";
       key = "<C-h>";
@@ -49,7 +49,15 @@
       options = {
         silent = true;
       };
-   }
+    }
+    {
+      mode = "n";
+      action = "<cmd>hide<CR>";
+      key = "<leader>H";
+      options = {
+        silent = true;
+      };
+    }
     {
       mode = "t";
       action = "<c-\\><c-n>";
@@ -59,5 +67,13 @@
       };
     }
   ];
-   
+
+  extraConfigLua = ''
+    vim.api.nvim_set_keymap('i', '.', '.<C-g>u', {noremap = true, silent = true})
+    vim.api.nvim_set_keymap('i', '!', '!<C-g>u', {noremap = true, silent = true})
+    vim.api.nvim_set_keymap('i', '?', '?<C-g>u', {noremap = true, silent = true})
+    vim.api.nvim_set_keymap('i', ',', ',<C-g>u', {noremap = true, silent = true})
+    vim.api.nvim_set_keymap('i', '<Space>', '<Space><C-g>u', {noremap = true, silent = true})
+    vim.api.nvim_set_keymap('i', '<CR>', '<CR><C-g>u', {noremap = true, silent = true})
+  '';
 }
