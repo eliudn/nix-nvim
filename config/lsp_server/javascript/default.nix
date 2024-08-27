@@ -1,5 +1,6 @@
 { pkgs, lib, ... }:
 {
+  extraPackages = [ pkgs.nodePackages.typescript ];
   plugins = {
     lsp.servers = {
       tsserver = {
@@ -17,17 +18,35 @@
               {
                 name = "@vue/typescript-plugin";
                 location = "${lib.getBin pkgs.vue-language-server}/lib/node_modules/@vue/language-server";
-                languages = [ "vue" ];
+                languages = [
+                  "typescript"
+                  "vue"
+                ];
               }
             ];
+
           };
         };
       };
       volar = {
         enable = true;
         package = pkgs.vue-language-server;
+        filetypes = [
+          "typescript"
+          "javascript"
+          "javascriptreact"
+          "typescriptreact"
+          "vue"
+        ];
+        # extraOptions = {
+        #   init_options = {
+        #     vue = {
+        #       hybridMode = false;
+        #     };
+        #   };
+        # };
       };
-      emmet-ls.filetypes = ["vue"];
+      emmet-ls.filetypes = [ "vue" ];
     };
   };
 }
