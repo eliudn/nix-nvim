@@ -44,7 +44,7 @@
       };
 
       "<leader>ff" = {
-        action = "find_files follow=true no_ignore=true";
+        action = "find_files follow=true";
         options = {
           desc = " Telescope find files";
         };
