@@ -294,6 +294,22 @@
         "type": "github"
       }
     },
+    "plugin-cmp-css-variables": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1709332249,
+        "narHash": "sha256-LnnjWWLiP9B7AZauPEJTDI04uElrM9SUEFc98v91eK4=",
+        "owner": "roginfarrer",
+        "repo": "cmp-css-variables",
+        "rev": "9a8fdbffcd17cee18714ad6b9f9c8cddabe1ad1a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "roginfarrer",
+        "repo": "cmp-css-variables",
+        "type": "github"
+      }
+    },
     "plugin-kulala": {
       "flake": false,
       "locked": {
@@ -349,6 +365,7 @@
         "flake-parts": "flake-parts",
         "nixpkgs": "nixpkgs",
         "nixvim": "nixvim",
+        "plugin-cmp-css-variables": "plugin-cmp-css-variables",
         "plugin-kulala": "plugin-kulala",
         "plugin-laravel": "plugin-laravel",
         "plugin-ultimate-autopairs": "plugin-ultimate-autopairs"

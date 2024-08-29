@@ -1,6 +1,5 @@
 { pkgs, lib, ... }:
 {
-  extraPackages = [ pkgs.nodePackages.typescript ];
   plugins = {
     lsp.servers = {
       tsserver = {
@@ -38,13 +37,6 @@
           "typescriptreact"
           "vue"
         ];
-        # extraOptions = {
-        #   init_options = {
-        #     vue = {
-        #       hybridMode = false;
-        #     };
-        #   };
-        # };
       };
       emmet-ls.filetypes = [ "vue" ];
     };

@@ -21,6 +21,10 @@
       url = "github:mistweaverco/kulala.nvim";
       flake = false;
     };
+    plugin-cmp-css-variables = {
+      url = "github:roginfarrer/cmp-css-variables";
+      flake = false;
+    };
   };
 
   outputs =
