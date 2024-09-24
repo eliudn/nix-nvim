@@ -19,5 +19,6 @@
     ./colorizer
     ./test
     ./kulala
+    ./ia
   ];
 }
