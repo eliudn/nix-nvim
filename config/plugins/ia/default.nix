@@ -2,5 +2,6 @@
 {
   imports = [
     ./supermaven.nix
+    ./avante.nix
     ];
 }
