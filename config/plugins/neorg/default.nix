@@ -12,6 +12,9 @@
       # lazyLoading = true;
       modules = {
         "core.defaults" = { };
+        "core.integrations.treesitter" = { 
+
+        };
         "core.dirman" = {
           config = {
             workspaces = {};
@@ -19,7 +22,7 @@
         };
 
       };
-    };
+    }; 
     treesitter = {
       grammarPackages = with pkgs.tree-sitter-grammars; [
         tree-sitter-norg
