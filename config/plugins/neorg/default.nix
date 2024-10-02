@@ -8,7 +8,7 @@
 
   plugins = {
     neorg = {
-      enable = true;
+      enable = false;
       # lazyLoading = true;
       modules = {
         "core.defaults" = { };

@@ -20,6 +20,7 @@ in
     laravelPlugin
     pkgs.vimPlugins.nui-nvim
     pkgs.vimPlugins.vim-dotenv
+    pkgs.vimPlugins.promise-async
   ];
 
   extraPackages = [ pkgs.fd ];

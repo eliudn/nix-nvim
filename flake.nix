@@ -14,7 +14,8 @@
       flake = false;
     };
     plugin-laravel = {
-      url = "github:adalessa/laravel.nvim/feature/container";
+      # url = "github:adalessa/laravel.nvim/feature/container";
+      url = "github:adalessa/laravel.nvim/development";
       flake = false;
     };
     plugin-kulala = {

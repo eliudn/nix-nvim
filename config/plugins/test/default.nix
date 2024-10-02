@@ -1,8 +1,8 @@
 {
   plugins.neotest = {
-    enable = true;
+    enable = false;
     adapters = {
-      phpunit.enable = true;
+      phpunit.enable = false;
     };
   };
 
