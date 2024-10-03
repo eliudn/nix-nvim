@@ -19,6 +19,8 @@
     # ./frameworks/vue.nix
     ./frameworks/tailwindcss.nix
     ./frameworks/laravel
+
+    ./utils/obsidian.nix
   ];
 
 }

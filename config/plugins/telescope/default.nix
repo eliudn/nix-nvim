@@ -9,6 +9,25 @@
     enable = true;
     extensions = {
       fzf-native.enable = true;
+      media-files = {
+        enable = true;
+        settings.filetypes = [
+          "png"
+          "jpg"
+          "gif"
+          "mp4"
+          "webm"
+          "pdf"
+        ];
+        settings.find_cmd = "rg";
+        dependencies = {
+          chafa.enable = true;
+          ffmpegthumbnailer.enable = true;
+          imageMagick.enable = true;
+          fontpreview.enable = true;
+          
+        };
+      };
     };
     keymaps = {
       "<C-p>" = {
