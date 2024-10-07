@@ -7,10 +7,7 @@
 }:
 {
   extraPlugins = [
-    (pkgs.vimUtils.buildVimPlugin {
-      name = "my-plugin";
-      src = inputs.plugin-kulala;
-    })
+    pkgs.vimPlugins.kulala-nvim
   ];
 
   extraConfigLua = ''

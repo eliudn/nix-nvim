@@ -18,10 +18,10 @@
       url = "github:adalessa/laravel.nvim/development";
       flake = false;
     };
-    plugin-kulala = {
-      url = "github:mistweaverco/kulala.nvim";
-      flake = false;
-    };
+    # plugin-kulala = {
+    #   url = "github:mistweaverco/kulala.nvim";
+    #   flake = false;
+    # };
     plugin-cmp-css-variables = {
       url = "github:roginfarrer/cmp-css-variables";
       flake = false;
