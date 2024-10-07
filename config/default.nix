@@ -21,6 +21,8 @@
     ./frameworks/laravel
 
     ./utils/obsidian.nix
+    ./utils/dressing.nix
+    ./utils/render-markdown.nix
   ];
 
 }
