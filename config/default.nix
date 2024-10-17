@@ -23,6 +23,7 @@
     ./utils/obsidian.nix
     ./utils/dressing.nix
     ./utils/render-markdown.nix
+    ./utils/indent-blankline.nix
   ];
 
 }
