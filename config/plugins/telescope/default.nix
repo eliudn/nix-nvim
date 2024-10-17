@@ -28,8 +28,11 @@
           fontpreview.enable = true;
           
         };
+      }; # end media-files
+      file-browser = {
+        enable = true;
       };
-    };
+    }; # end extensions
     keymaps = {
       "<C-p>" = {
         action = "git_files";
@@ -88,6 +91,26 @@
         action = "keymaps";
         options = {
           desc = "Telescope keymaps";
+        };
+      };
+      
+      "<leader>fgc" = {
+        action = "git_commits";
+        options = {
+          desc = "Telescope git commits";
+        };
+      };
+      "<leader>fgs" = {
+        action = "git_status";
+        options = {
+          desc = "Telescope git status";
+        };
+      };
+
+      "<leader>ffb" = {
+        action = "file_browser hidden=true no_ignore=true";
+        options = {
+          desc = "Telescope file browser";
         };
       };
     };

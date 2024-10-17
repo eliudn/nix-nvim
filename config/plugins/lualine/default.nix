@@ -1,6 +1,6 @@
 { 
   plugins.lualine ={
     enable = true;
-    theme = "powerline";
+    settings.options.theme = "powerline";
   };
 }

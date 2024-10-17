@@ -11,7 +11,7 @@
   plugins.neotest = {
     enable = true;
     adapters = {
-      phpunit.enable = false;
+      phpunit.enable = true;
     };
   };
   keymaps = [
