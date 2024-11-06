@@ -23,7 +23,7 @@ in
       package = pkgs.blade-formatter;
     };
 
-    lsp.servers.emmet-ls.filetypes = [ "blade" ];
+    lsp.servers.emmet_ls.filetypes = [ "blade" ];
   };
 
   extraFiles = {

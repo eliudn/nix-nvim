@@ -3,7 +3,9 @@
   colorschemes.nightfox = {
     enable = true;
   };
-  extraPackages = [ pkgs.fd ];
+  extraPackages = [ 
+    pkgs.fd 
+  ];
   imports = [
     ./plugins
     ./options

@@ -1,13 +1,13 @@
 {
   plugins = {
     lsp.servers = {
-      ts-ls = {
+      ts_ls = {
         enable = true;
       };
       volar = {
         enable = true;
       };
-      emmet-ls.filetypes = [ "vue" ];
+      emmet_ls.filetypes = [ "vue" ];
     };
   };
 }

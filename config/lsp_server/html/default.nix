@@ -1,11 +1,7 @@
-{
-  pkgs,
-  inputs,
-  ...
-}:
+{ pkgs, inputs, ... }:
 {
   extraPlugins = [
-    (pkgs.vimUtils.buildVimPlugin{
+    (pkgs.vimUtils.buildVimPlugin {
       name = "css-variables";
       src = inputs.plugin-cmp-css-variables;
     })
@@ -13,15 +9,18 @@
   plugins = {
     lsp.servers = {
       html.enable = true;
-      cssls.enable = true;
-      emmet-ls = {
+      cssls = {
         enable = true;
-        filetypes = [ 
+      };
+      emmet_ls = {
+        enable = true;
+
+        filetypes = [
           "css"
           "html"
         ];
       };
     };
-    cmp.settings.sources = [{name = "css-variables";}];
+    cmp.settings.sources = [ { name = "css-variables"; } ];
   };
 }

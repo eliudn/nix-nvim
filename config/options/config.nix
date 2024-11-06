@@ -37,7 +37,7 @@
     undofile = true;
     undolevels = 10000;
 
-    ttimeoutlen = 500;
+    # ttimeoutlen = 100;
   };
   globals.mapleader = " ";
   globals.maplocalleader = "+";
