@@ -1,7 +1,7 @@
 {
-  plugins.nvim-colorizer = {
+  plugins.colorizer = {
     enable = true;
-    userDefaultOptions = {
+    settings.user_default_options = {
       RGB = true;
       RRGGBB = true;
       names = true;
