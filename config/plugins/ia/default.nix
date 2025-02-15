@@ -1,7 +1,7 @@
 {pkgs, inputs, ...}:
 {
   imports = [
-    ./supermaven.nix
+    # ./supermaven.nix
     ./avante.nix
     ];
 }
