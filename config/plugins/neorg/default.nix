@@ -1,10 +1,10 @@
 { pkgs, ... }:
 {
-  extraPlugins = [
-    (pkgs.vimUtils.buildVimPlugin { inherit (pkgs.luaPackages.lua-utils-nvim) pname version src; })
-    (pkgs.vimUtils.buildVimPlugin { inherit (pkgs.luaPackages.pathlib-nvim) pname version src; })
-    (pkgs.vimUtils.buildVimPlugin { inherit (pkgs.luaPackages.nvim-nio) pname version src; })
-  ];
+  # extraPlugins = [
+  #   (pkgs.vimUtils.buildVimPlugin { inherit (pkgs.luaPackages.lua-utils-nvim) pname version src; })
+  #   (pkgs.vimUtils.buildVimPlugin { inherit (pkgs.luaPackages.pathlib-nvim) pname version src; })
+  #   (pkgs.vimUtils.buildVimPlugin { inherit (pkgs.luaPackages.nvim-nio) pname version src; })
+  # ];
 
   plugins = {
     neorg = {
@@ -12,17 +12,17 @@
       # lazyLoading = true;
       modules = {
         "core.defaults" = { };
-        "core.integrations.treesitter" = { 
+        "core.integrations.treesitter" = {
 
         };
         "core.dirman" = {
           config = {
-            workspaces = {};
+            workspaces = { };
           };
         };
 
       };
-    }; 
+    };
     treesitter = {
       grammarPackages = with pkgs.tree-sitter-grammars; [
         tree-sitter-norg

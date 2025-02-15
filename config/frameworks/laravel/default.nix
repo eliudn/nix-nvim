@@ -8,11 +8,11 @@ let
   laravelPlugin = pkgs.vimUtils.buildVimPlugin {
     name = "laravel";
     src = inputs.plugin-laravel;
-    denpendencies = with pkgs.vimPlugins; [
-      plenary-nvim
-      nui-nvim
-      vim-dotenv
-      promise-async
+    dependencies = [
+      pkgs.vimPlugins.plenary-nvim
+      pkgs.vimPlugins.nui-nvim
+      pkgs.vimPlugins.vim-dotenv
+      pkgs.vimPlugins.promise-async
     ];
     nvimRequireCheck = "laravel";
   };
